@@ -9,11 +9,17 @@
 
 ## 安装
 
-Via Composer
+#### Via Composer
 
 ```bash
 $ composer require pili-engineering/pili-sdk-php.v2:dev-master
 $ composer require pinweb/qnlive
+```
+
+#### 生成配置文件
+
+```bash
+$ php artisan vendor:publish --provider="Pinweb\Qnlive\QnliveServiceProvider"
 ```
 
 ## 使用
