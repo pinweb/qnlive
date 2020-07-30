@@ -59,6 +59,8 @@ Qnlive::pushUrl($stream);
 Qnlive::playUrl($stream);
 ```
 
+更多使用方法参见[官方 SDK](https://github.com/pili-engineering/pili-sdk-php.v2)
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
