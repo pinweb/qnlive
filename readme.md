@@ -17,6 +17,48 @@ $ composer require pinweb/qnlive
 
 ## 使用
 
+#### 引用
+
+```php
+use Pinweb\Qnlive;
+```
+
+#### 创建流
+
+```php
+Qnlive::hub()->create($stream);
+```
+
+#### 流信息
+
+```php
+Qnlive::hub()->stream($stream)->info();
+```
+
+#### 启用流
+
+```php
+Qnlive::hub()->stream($stream)->enable();
+```
+
+#### 禁用流
+
+```php
+Qnlive::hub()->stream($stream)->disable();
+```
+
+#### 获取推流地址
+
+```php
+Qnlive::pushUrl($stream);
+```
+
+#### 获取播放地址
+
+```php
+Qnlive::playUrl($stream);
+```
+
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
