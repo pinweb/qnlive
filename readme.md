@@ -12,6 +12,7 @@
 Via Composer
 
 ```bash
+$ composer require pili-engineering/pili-sdk-php.v2:dev-master
 $ composer require pinweb/qnlive
 ```
 
